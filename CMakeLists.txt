@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.6)
+project(KadCrawler)
+set(CMAKE_CXX_FLAGS "-g -Wno-deprecated")
+MESSAGE(STATUS "Project:KadCrawler")
+SET(CMAKE_BUIDLE_TYPE DEBUG)
+add_subdirectory(src)
